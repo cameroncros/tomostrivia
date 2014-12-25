@@ -18,7 +18,7 @@ xmlhttp.onreadystatechange=function()
       solveQuestion();
     }
   }
-xmlhttp.open("GET","https://gist.githubusercontent.com/cameroncros/4e0fe4c3bc188c603c2a/raw/356a778fe6a6e0346e3050819a66d4ba7a80b5fd/Tomos%20Answers",true);
+xmlhttp.open("GET","https://cdn.rawgit.com/cameroncros/tomostrivia/master/tomosanswers.txt",true);
 xmlhttp.send();
 
 function solveQuestion() {
@@ -28,7 +28,7 @@ function solveQuestion() {
         if (answers_solver[i].answer == options_solver[j]) {
           //alert(j);
           trivia_submitAnswer(j);
-          window.location = 'main.php?p=tradepost&lot=trivia&cont=1';
+          //window.location = 'main.php?p=tradepost&lot=trivia&cont=1';
           return;
         }
       }
