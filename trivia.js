@@ -13,6 +13,7 @@ xmlhttp.onreadystatechange=function()
       {
         answers_solver.push({question:lines[i*3], answer:lines[i*3+1]});
       }
+      
       getQuestionsAndOptions();
       solveQuestion();
     }
@@ -25,8 +26,9 @@ function solveQuestion() {
     if (answers_solver[i].question == question_solver) {
       for (var j = 0; j < 4; j++) {
         if (answers_solver[i].answer == options_solver[j]) {
-          alert(j);
+          //alert(j);
           trivia_submitAnswer(j);
+          window.location = 'main.php?p=tradepost&lot=trivia&cont=1';
           return;
         }
       }
