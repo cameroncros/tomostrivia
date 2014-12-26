@@ -8,7 +8,7 @@ This is a replacement for copying and searching the question in the threads
 
 To use, create a bookmark with the url:
 
-javascript:(function(){var%20script=document.createElement('script');script.type='text/javascript';script.src='https://cdn.rawgit.com/cameroncros/tomostrivia/master/trivia.js';document.getElementsByTagName('head')[0].appendChild(script);})();
+javascript:(function(){var%20script=document.createElement('script');script.type='text/javascript';script.src='https://rawgit.com/cameroncros/tomostrivia/master/trivia.js';document.getElementsByTagName('head')[0].appendChild(script);})();
 
 When you are at the trivia page, click the bookmark and it should solve the trivia page for you.
 
