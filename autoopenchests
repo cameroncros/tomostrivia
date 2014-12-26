@@ -1,0 +1,3 @@
+BrokenPennyJar: javascript:(function(){useChest(787);setTimeout(function(){conOpen(787);window.location ='main.php?p=hoard&tab=other&page=1';},1000);})();
+StrangeChest:   javascript:(function(){useChest(7683);setTimeout(function(){conOpen(7683);window.location ='main.php?p=hoard&tab=other&page=1';},1000);})();
+RustedChest:    javascript:(function(){useChest(574);setTimeout(function(){conOpen(574);window.location ='main.php?p=hoard&tab=other&page=1';},1000);})();
