@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange=function()
       var lines = xmlhttp.responseText.split("\n");
       for (var i = 0; i < lines.length/3; i++) 
       {
-        answers_solver.push({question:lines[i*3], answer:lines[i*3+1]});
+        answers_solver.push({question:lines[i*3].trim(), answer:lines[i*3+1].trim()});
       }
       
       getQuestionsAndOptions();
@@ -22,6 +22,7 @@ xmlhttp.open("GET","https://cdn.rawgit.com/cameroncros/tomostrivia/master/tomosa
 xmlhttp.send();
 
 function solveQuestion() {
+  debugger;
   for (var i = 0; i < answers_solver.length; i++) {
     if (answers_solver[i].question == question_solver) {
       for (var j = 0; j < 4; j++) {
