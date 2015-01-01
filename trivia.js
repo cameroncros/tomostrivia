@@ -29,7 +29,9 @@ function solveQuestion() {
         if (answers_solver[i].answer == options_solver[j]) {
           //alert(j);
           trivia_submitAnswer(j);
-          //window.location = 'main.php?p=tradepost&lot=trivia&cont=1';
+          setTimeout(function(){
+            window.location = 'main.php?p=tradepost&lot=trivia&cont=1';
+          },1000);
           return;
         }
       }
