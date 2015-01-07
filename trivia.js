@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange=function()
       var lines = xmlhttp.responseText.split("\n");
       for (var i = 0; i < lines.length/3; i++) 
       {
-        answers_solver.push({question:lines[i*3].trim(), answer:lines[i*3+1].trim()});
+        answers_solver.push({question:lines[i*3].trim().toUpper(), answer:lines[i*3+1].trim().toUpper()});
       }
       
       getQuestionsAndOptions();
@@ -41,11 +41,11 @@ function solveQuestion() {
 }
 
 function getQuestionsAndOptions() {
-  question_solver = document.getElementById("tomo_question").innerHTML.trim();
-  options_solver.push(document.getElementById("answer0").innerHTML.trim());
-  options_solver.push(document.getElementById("answer1").innerHTML.trim());
-  options_solver.push(document.getElementById("answer2").innerHTML.trim());
-  options_solver.push(document.getElementById("answer3").innerHTML.trim());
+  question_solver = document.getElementById("tomo_question").innerHTML.trim().toUpper();
+  options_solver.push(document.getElementById("answer0").innerHTML.trim()).toUpper();
+  options_solver.push(document.getElementById("answer1").innerHTML.trim()).toUpper();
+  options_solver.push(document.getElementById("answer2").innerHTML.trim()).toUpper();
+  options_solver.push(document.getElementById("answer3").innerHTML.trim()).toUpper();
 }
 
 
