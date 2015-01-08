@@ -42,10 +42,10 @@ function solveQuestion() {
 
 function getQuestionsAndOptions() {
   question_solver = document.getElementById("tomo_question").innerHTML.trim().toUpperCase();
-  options_solver.push(document.getElementById("answer0").innerHTML.trim()).toUpperCase();
-  options_solver.push(document.getElementById("answer1").innerHTML.trim()).toUpperCase();
-  options_solver.push(document.getElementById("answer2").innerHTML.trim()).toUpperCase();
-  options_solver.push(document.getElementById("answer3").innerHTML.trim()).toUpperCase();
+  options_solver.push(document.getElementById("answer0").innerHTML.trim().toUpperCase());
+  options_solver.push(document.getElementById("answer1").innerHTML.trim().toUpperCase());
+  options_solver.push(document.getElementById("answer2").innerHTML.trim().toUpperCase());
+  options_solver.push(document.getElementById("answer3").innerHTML.trim().toUpperCase());
 }
 
 
