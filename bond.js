@@ -66,10 +66,17 @@ function bondJamesbond(id)
 if (dragonID == undefined) {
 	alert("You must be on a dragon page for this to work");
 }
+var startAll = new Date();
 for (var i = 0; i < familiars.length; i++) {
+        var start = new Date();
 	fam = familiars[i];
 	detachFamiliar();
 	attachFamiliar(fam);
 	bondJamesbond(fam);
-	alert("Bonded");
+	 var end  = new Date();
+	 var time = end.getTime() - start.getTime();
+	console.log("Bonded to "+fam+" - Took: "+time);
 }
+var endAll  = new Date();
+var time = endAll.getTime() - startAll.getTime();
+console.log("All bonding took: "+time);
