@@ -66,6 +66,11 @@ function bondJamesbond(id)
 		async:false
 		
 	}).done(function(stuff){
+		if (stuff.indexOf("You have already bonded with this familiar today.") > -1) {
+			console.log("Already bonded to: "+id);
+		} else {
+			debugger;
+		}
 		$("#bonding").html(stuff);
 	});
 }
@@ -81,7 +86,8 @@ for (var i = 0; i < familiars.length; i++) {
 	bondJamesbond(fam);
 	 var end  = new Date();
 	 var time = end.getTime() - start.getTime();
-	console.log("Bonded to "+fam+" - Took: "+time);
+	console.log("Took: "+time);
+	
 }
 detachFamiliar();
 var endAll  = new Date();
