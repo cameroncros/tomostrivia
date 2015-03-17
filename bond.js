@@ -68,6 +68,11 @@ function bondJamesbond(id)
 	}).done(function(stuff){
 		if (stuff.indexOf("You have already bonded with this familiar today.") > -1) {
 			console.log("Already bonded to: "+id);
+		} else if (stuff.indexOf("You've earned these rewards today:") > -1) {
+			console.log("Successfully bonded to: "+id);
+		} else if (stuff.indexOf("lair") > -1) {
+			console.log("Failed to bond, manually bond with this familiar first");
+			debugger;
 		} else {
 			debugger;
 		}
