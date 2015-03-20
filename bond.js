@@ -3,6 +3,11 @@
 //more main.php\?p\=bestiary\&tab\=familiars\&page\=* | grep "/images/cms/familiar/art/"
 
 var familiars = [];
+var moneyMade = 0;
+var rustedTotal = 0;
+var ironTotal = 0;
+var gildedTotal = 0;
+var totalBonded = 0;
 
 var links = document.getElementsByClassName("clue");
 for (var i = 0; i < links.length; i++) {
@@ -70,31 +75,47 @@ function bondJamesbond(id)
 			console.log("Already bonded to: "+id);
 		} else if (stuff.indexOf("You've earned these rewards today:") > -1) {
 			console.log("Successfully bonded to: "+id);
+			totalBonded++;
 		} else if (stuff.indexOf("lair") > -1) {
 			console.log("Failed to bond, manually bond with this familiar first");
 			debugger;
 		} else {
 			debugger;
 		}
-		$("#bonding").html(stuff);
+		
+		if (stuff.indexOf("Rusted Treasure Chest") > -1) {
+			rustedTotal++;
+		}
+		if (stuff.indexOf("Iron Treasure Chest") > -1) {
+			ironTotal++;
+		}
+		if (stuff.indexOf("Gilded Decorative Chest") > -1) {
+			gildedTotal++;
+		}
+		
+		
+		//$("#bonding").html(stuff);
 	});
 }
 if (dragonID == undefined) {
 	alert("You must be on a dragon page for this to work");
 }
-var startAll = new Date();
-for (var i = 0; i < familiars.length; i++) {
-        var start = new Date();
-	fam = familiars[i];
+if (confirm("You have "+familiars.length+" familiars, this should take approximately "+familiars.length*2+" seconds to complete. Do not interrupt it. Press F12 and click the console tab to monitor the process. Are you sure you want to do this?")) {
+	var startAll = new Date();
+	for (var i = 0; i < familiars.length; i++) {
+			var start = new Date();
+		fam = familiars[i];
+		detachFamiliar();
+		attachFamiliar(fam);
+		bondJamesbond(fam);
+		 var end  = new Date();
+		 var time = end.getTime() - start.getTime();
+		console.log("Took: "+time);
+		
+	}
 	detachFamiliar();
-	attachFamiliar(fam);
-	bondJamesbond(fam);
-	 var end  = new Date();
-	 var time = end.getTime() - start.getTime();
-	console.log("Took: "+time);
-	
+	var endAll  = new Date();
+	var time = endAll.getTime() - startAll.getTime();
+	console.log("All bonding took: "+time);
+	alert("Bonded to "+totalBonded+" familiars, and earnt "+moneyMade+" gold. Got "+rustedTotal+" Rusted Chests, "+ironTotal+" Iron Chests and "+gildedTotal+" gilded Chests");
 }
-detachFamiliar();
-var endAll  = new Date();
-var time = endAll.getTime() - startAll.getTime();
-console.log("All bonding took: "+time);
