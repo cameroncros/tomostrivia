@@ -71,7 +71,6 @@ function bondJamesbond(id)
 		async:false
 		
 	}).done(function(stuff){
-	debugger;
 		if (stuff.indexOf("You have already bonded with this familiar today.") > -1) {
 			console.log("Already bonded to: "+id);
 		} else if (stuff.indexOf("You've earned these rewards today:") > -1) {
@@ -96,7 +95,7 @@ function bondJamesbond(id)
 		}
 		
 		
-		//$("#bonding").html(stuff);
+		$("#bonding").html(stuff);
 	});
 }
 if (dragonID == undefined) {
