@@ -71,10 +71,12 @@ function bondJamesbond(id)
 		async:false
 		
 	}).done(function(stuff){
+	debugger;
 		if (stuff.indexOf("You have already bonded with this familiar today.") > -1) {
 			console.log("Already bonded to: "+id);
 		} else if (stuff.indexOf("You've earned these rewards today:") > -1) {
 			console.log("Successfully bonded to: "+id);
+			moneyMade+=stuff.match(/\s([0-9][0-9])\s/)[1]*1;
 			totalBonded++;
 		} else if (stuff.indexOf("lair") > -1) {
 			console.log("Failed to bond, manually bond with this familiar first");
