@@ -84,10 +84,10 @@ function bondJamesbond(id)
 			debugger;
 		}
 		
-		if (stuff.indexOf("Rusted Treasure Chest") > -1) {
+		if (stuff.indexOf("574.png") > -1) {
 			rustedTotal++;
 		}
-		if (stuff.indexOf("Iron Treasure Chest") > -1) {
+		if (stuff.indexOf("575.png") > -1) {
 			ironTotal++;
 		}
 		if (stuff.indexOf("Gilded Decorative Chest") > -1) {
