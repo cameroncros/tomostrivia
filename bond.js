@@ -90,7 +90,7 @@ function bondJamesbond(id)
 		if (stuff.indexOf("575.png") > -1) {
 			ironTotal++;
 		}
-		if (stuff.indexOf("Gilded Decorative Chest") > -1) {
+		if (stuff.indexOf("576.png") > -1) {
 			gildedTotal++;
 		}
 		
