@@ -98,25 +98,39 @@ function bondJamesbond(id)
 		$("#bonding").html(stuff);
 	});
 }
-if (dragonID == undefined) {
-	alert("You must be on a dragon page for this to work");
-}
-if (confirm("You have "+familiars.length+" familiars, this should take approximately "+familiars.length*2+" seconds to complete. Do not interrupt it. Press F12 and click the console tab to monitor the process. Are you sure you want to do this?")) {
-	var startAll = new Date();
-	for (var i = 0; i < familiars.length; i++) {
-			var start = new Date();
-		fam = familiars[i];
-		detachFamiliar();
-		attachFamiliar(fam);
-		bondJamesbond(fam);
-		 var end  = new Date();
-		 var time = end.getTime() - start.getTime();
-		console.log("Took: "+time);
-		
+
+function bondNext() {
+	var start = new Date();
+	fam = familiars[0];
+	detachFamiliar();
+	attachFamiliar(fam);
+	bondJamesbond(fam);
+	 var end  = new Date();
+	 var time = end.getTime() - start.getTime();
+	console.log("Took: "+time);
+	familiars.shift();
+	
+	if (familiars.length != 0) {
+		setTimeout('bondNext()', 50);
+	} else {
+		setTimeout('cleanUp()', 50);	
 	}
+}
+
+function cleanUp() {
 	detachFamiliar();
 	var endAll  = new Date();
 	var time = endAll.getTime() - startAll.getTime();
 	console.log("All bonding took: "+time);
 	alert("Bonded to "+totalBonded+" familiars, and earnt "+moneyMade+" gold. Got "+rustedTotal+" Rusted Chests, "+ironTotal+" Iron Chests and "+gildedTotal+" gilded Chests");
+}
+
+
+if (dragonID == undefined) {
+	alert("You must be on a dragon page for this to work");
+}
+if (confirm("You have "+familiars.length+" familiars, this should take approximately "+familiars.length*2+" seconds to complete. Do not interrupt it. Press F12 and click the console tab to monitor the process. Are you sure you want to do this?")) {
+	
+	var startAll = new Date();
+	setTimeout('bondNext()', 50);
 }
