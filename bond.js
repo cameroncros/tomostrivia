@@ -95,7 +95,7 @@ function bondJamesbond(id)
 		}
 		
 		
-		$("#bonding").html(stuff);
+		$("#bonding").html(stuff.replace(/<button.*button>/g, ""));
 	});
 }
 
@@ -122,6 +122,7 @@ function cleanUp() {
 	var endAll  = new Date();
 	var time = endAll.getTime() - startAll.getTime();
 	console.log("All bonding took: "+time);
+	$('#bonding').dialog('close');
 	alert("Bonded to "+totalBonded+" familiars, and earnt "+moneyMade+" gold. Got "+rustedTotal+" Rusted Chests, "+ironTotal+" Iron Chests and "+gildedTotal+" gilded Chests");
 }
 
