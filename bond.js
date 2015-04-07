@@ -123,7 +123,7 @@ function cleanUp() {
 	var time = endAll.getTime() - startAll.getTime();
 	console.log("All bonding took: "+time);
 	$('#bonding').dialog('close');
-	alert("Bonded to "+totalBonded+" familiars, and earnt "+moneyMade+" gold. Got "+rustedTotal+" Rusted Chests, "+ironTotal+" Iron Chests and "+gildedTotal+" gilded Chests. Took "+time+" seconds.");
+	alert("Bonded to "+totalBonded+" familiars, and earnt "+moneyMade+" gold. Got "+rustedTotal+" Rusted Chests, "+ironTotal+" Iron Chests and "+gildedTotal+" gilded Chests. Took "+time/1000+" seconds.");
 }
 
 
