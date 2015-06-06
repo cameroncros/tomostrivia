@@ -78,10 +78,9 @@ function bondJamesbond(id)
 			moneyMade+=stuff.match(/\s([0-9][0-9])\s/)[1]*1;
 			totalBonded++;
 		} else if (stuff.indexOf("lair") > -1) {
-			console.log("Failed to bond, manually bond with this familiar first");
-			debugger;
+			alert("Failed to bond, manually bond with this familiar after the script ends, click okay to allow the script to contine");
 		} else {
-			debugger;
+			alert("Something bad happened");
 		}
 		
 		if (stuff.indexOf("574.png") > -1) {
