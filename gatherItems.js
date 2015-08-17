@@ -94,7 +94,6 @@ function addOption() {
 }
 
 function runTest() {
-    debugger;
     var actions = document.getElementsByName("type");
     var regions = document.getElementsByName("gather");
     var numbers = document.getElementsByName("number");
@@ -107,7 +106,7 @@ function runTest() {
             jQuery.post("/main.php?p=gather&action=" + action, "gather=" + region, null, "html")
         }
     }
-
+    location.reload();
 }
 
 var superCont = document.getElementById("super-container");
