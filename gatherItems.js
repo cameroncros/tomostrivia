@@ -101,9 +101,10 @@ function runTest() {
         var action = actions[i].options[actions[i].selectedIndex].value;
         var region = regions[i].options[regions[i].selectedIndex].value;;
         //alert(action+region+numbers[i].value)
-        for (var j = 0; j < numbers[i].value; j++) {
-
-            jQuery.post("/main.php?p=gather&action=" + action, "gather=" + region, null, "html")
+        if (numbers[i].value > 0 && numbers[i].value < 100) {
+            for (var j = 0; j < numbers[i].value; j++) {
+                jQuery.post("/main.php?p=gather&action=" + action, "gather=" + region, null, "html")
+            }
         }
     }
     location.reload();
