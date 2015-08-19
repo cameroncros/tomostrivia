@@ -103,7 +103,13 @@ function runTest() {
         //alert(action+region+numbers[i].value)
         if (numbers[i].value > 0 && numbers[i].value < 100) {
             for (var j = 0; j < numbers[i].value; j++) {
-                jQuery.post("/main.php?p=gather&action=" + action, "gather=" + region, null, "html")
+                jQuery.ajax({
+                    type: "POST",
+                    url: "/main.php?p=gather&action=" + action,
+                    data: "gather=" + region,
+                    async: false
+                })
+                //jQuery.post("/main.php?p=gather&action=" + action, "gather=" + region, null, "html");
             }
         }
     }
