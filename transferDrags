@@ -1,0 +1,11 @@
+var dragonList = ["14776865","14776853", "14776852", "14776851", "14776850", "14776853"];
+
+for (dragonID in dragonList) {
+        $.ajax({
+                type: "POST",
+                data: {me: dragonList[dragonID], you: "0", amt: 1, curr: 'treas', youid: "106046"},
+                url: "includes/ol/cross_conreq.php",
+                cache: false,
+                async: false
+        })
+}
