@@ -120,6 +120,12 @@ function runTest() {
         div.removeChild(div.firstChild);
     }
     div.innerHTML=message;
+    var mains = document.getElementsByClassName('main')
+    var smallmessage = "";
+    for (var i = 1; i < mains.length; i++) {
+        smallmessage += mains[i].outerHTML;
+    }
+    div.innerHTML=smallmessage;
     //location.reload();
 }
 
