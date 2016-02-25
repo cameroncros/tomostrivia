@@ -151,7 +151,7 @@ Coatl
 Which breed has a difficult time communicating with fae dragons?
 Coatl
 
-Which breed does not speak common Draconian?
+Which breed does not speak common Draconian as its native language?
 Coatl
 
 This dragon species has a native language that consists of humming tones:
@@ -335,7 +335,7 @@ Which gene is a primary, secondary, and tertiary?
 Basic
 
 Which secondary gene has the highest chance of being passed down when bred against another gene?
-Basic
+Basic.
 
 Which of the following is a primary gene?
 Clown
@@ -366,6 +366,18 @@ A primary gene
 
 What type of gene is tiger?
 A primary gene
+
+What type of gene is Vipera?
+A primary gene.
+
+What type of gene is Piebald?
+A primary gene.
+
+What type of gene is Cherub?
+A primary gene.
+
+What type of gene is Poison?
+A primary gene.
 
 Which of the following is a secondary gene?
 Current
@@ -403,6 +415,18 @@ A secondary gene
 What type of gene is stripes?
 A secondary gene
 
+What type of gene is Hypnotic?
+A secondary gene.
+
+What type of gene is Paint?
+A secondary gene.
+
+What type of gene is Peregrine?
+A secondary gene.
+
+What type of gene is Toxin?
+A secondary gene.
+
 Which of the following is a tertiary gene?
 Circuit
 
@@ -427,8 +451,32 @@ A tertiary gene
 What type of gene is underbelly?
 A tertiary gene
 
+What type of gene is Okapi?
+A tertiary gene.
+
+What type of gene is Glimmer?
+A tertiary gene.
+
+Which of the following is not a primary gene?
+Stripes
+
+Which of the following is not a primary gene?
+Daub
+
+Which of the following is not a secondary gene?
+Gembond
+
+Which of the following is not a secondary gene?
+Vipera
+
+Which of the following is not a tertiary gene?
+Tiger
+
 Which of the following gene scrolls were never available in the gem marketplace?
 Seraph
+
+Which gene scrolls must be brewed?
+Poison and Toxin
 
 Which of the following is an official color outcome for a dragon?
 Emerald
@@ -471,6 +519,9 @@ Tiffany
 
 Which of the following options is not a color possibility on Dragons?
 Mist
+
+Which of the following options are not a possible color on dragons?
+Flame
 
 Which of the following options are not a possible color combination on dragons?
 Flame
@@ -518,6 +569,9 @@ A coliseum venue is a location inside the coliseum that dragons may battle in. W
 Kelp Beds
 
 What is the level 25 venue?
+Kelp Beds
+
+Which is a level 25 venue?
 Kelp Beds
 
 What is the name of Arcane's special ability?
@@ -635,7 +689,7 @@ Dreameaters claim this territory as their own, and fight to defend it:
 Bamboo Waterfall
 
 Baku claim this territory as their own, and fight to defend it:
-Bamboo Waterfall
+Bamboo Falls
 
 Which familiar is able to walk both the physical and ethereal plane?
 Baku
@@ -680,7 +734,7 @@ A playful and mischievous familiar. These creatures will often sneak into dragon
 Grey River Flight
 
 It's so fluffy!
-Cumulus Seal
+Yes. That would be a cumulus seal.
 
 This familiar has set aside the staff of war as to take up the staff of healing,which one is it ?
 Longneck Mender
@@ -826,14 +880,26 @@ A cloud of fur dusting their scales
 Which of the following familiars is retired?
 Golden Bantam Fangar
 
+Which of the following familiars is retired?
+Red-Footed Akirbeak
+
+Which of the following familiars is retired?
+Boolean
+
+Which of the following familiars is retired?
+Water Sprite
+
+Which of the following familiars is retired?
+Light Sprite
+
+Which of the following familiars is retired?
+Earth Sprite
+
 Which of these is a retired familiar?
 Golden Bantam Fangar
 
 Which bird is known for its tendency to hoard and brood over eggs?
 Red-Footed Akiribeak
-
-Which of the following familiars is retired?
-Red-Footed Akirbeak
 
 What is the value of a Black Dwarf Unicorn's horn?
 Trick question: It is worthless!
@@ -850,13 +916,10 @@ Dunhoof Centaurs
 Although frightening to look at, these creatures mostly keep to themselves and the piles of calcified remains that they have collected:
 Bone Fiend
 
-Which of the following familiars is retired?
-Boolean
-
 Iridescent Scalebacks may be swapped at Swipp's Swap Stand for 75 of this trade item:
 Reflective Fish Scales
 
-Which gathering profession is needed to find a Darktouched Chimera
+Which gathering profession is needed to find a Darktouched Chimera?
 Scavenging
 
 This enormous decopod releases millions of tiny bubbles from its carapace to ward off predators. But really, who is afraid of bubbles?
@@ -897,6 +960,39 @@ Bestiary
 
 Which Beastclans inhabit the Southern Icefield?
 Centaurs and Longnecks.
+
+Which of the following opponents is not found in The Training Fields in the coliseum?
+Chromefeather Lookout
+
+Which of the following opponents is not encountered in the Woodland Path in the coliseum?
+Crimson Reef Snail
+
+Which of the following opponents is not encountered in the Scorched Forest in the coliseum?
+Celestial Antelope
+
+Which of the following opponents is not encountered in the Sandswept Delta in the coliseum?
+Fungusbearing Phony
+
+Which of the following opponents is not encountered in the Forgotten Cave in the coliseum?
+Corrosive Depin
+
+Which of the following opponents is not encountered in the Bamboo Falls in the coliseum?
+Ultramel Amphithere
+
+Which of the following opponents is not encountered in the Waterway in the coliseum?
+Barkback Boar
+
+Which of the following opponents is not encountered in the Arena in the coliseum?
+Wintermane Bowman
+
+Which of the following opponents is not encountered in the Rainsong Jungle in the coliseum?
+Noogle
+
+Which of the following opponents is not encountered in the Crystal Pools in the coliseum?
+Heartred Croaker
+
+What familiar was released to celebrate Flight Rising's 2nd anniversary and the release of Baldwin's Bubbling Brew?
+Loga
 
 This spider is named for its habit of jumping in the face of any dragon, no matter how large:
 Bold Jumping Spider
@@ -1091,7 +1187,7 @@ How can one obtain crimson silk apparel?
 They are a trade offered by Swipp
 
 Which Talonclasp Pendant was never sold in the Marketplace?
-Diamond
+Diamond.
 
 Which of the following is NOT a method of gathering?
 Harvesting
@@ -1328,7 +1424,7 @@ Dominance is tallied on which day (FR Time)?
 Saturday
 
 How can a player boost exaltation payout?
-All of these.
+All of the these.
 
 Choose the best answer. Exalting a dragon...
 All of these.
@@ -1438,8 +1534,8 @@ All-Seeing Shroom
 Which of the following is an elemental holiday currency?
 Deepearth Geode
 
-What is the name of the 2013 Crystalline gala holiday gear?
-Frigid Fugitive's Shackles
+What is the name of the 2014 Crystalline gala holiday gear?
+Frigid Fugitive Shackles
 
 What is the name of the 2014 Trickmurk Circus holiday gear?
 Tricktrouper Crown
@@ -1465,6 +1561,9 @@ Starseer Armband
 What is the name of the 2013 Riot of Rot holiday gear?
 Boneyard Tatters
 
+What is the name of the 2015 Riot of Rot unique apparel item?
+Skeletal Chimes
+
 What is the name of the 2013 Rockbreaker's ceremony holiday gear?
 Eroded Crystalhide
 
@@ -1477,14 +1576,8 @@ Ice Sprite
 This holiday sprite has swirly mist over its head:
 Wind Sprite
 
-Which of the following familiars is retired?
-Water Sprite
-
 Which item is retired?
 Nature Sprite
-
-Which of the following familiars is retired?
-Light Sprite
 
 This holiday sprite is holding an orb:
 Light Sprite
@@ -1498,8 +1591,8 @@ The arcane sprite
 This holiday sprite is wearing a skull:
 The plague sprite
 
-Which of the following familiars is retired?
-Earth Sprite
+What is the name of the 2015 Riot of Rot elemental familiar?
+Deadland Disciple
 
 Which theme do June 2013 - May 2014 festival familiars share?
 Sprites
@@ -1543,50 +1636,27 @@ To guess whether or not the right card will be higher or lower than the left car
 What is the gold limit required to max-out Lucky Streak in the Fairgrounds?
 75,000
 
-Who is the Pearlcatcher with the cauldron?
-Baldwin
-
-Who is the Pearlcatcher with the cauldron displayed in one of the Jigsaw puzzles?
-Baldwin
+- Trading Post
 
 What is a similarity that all of the Trading Post dragon merchants share?
 Alliterative plot names.
 
-What color dragon is Swipp the Swapper?
-Swamp and Sand
-
-What color dragon is Crim the Collector?
-Mulberry and Ivory
-
-What color dragon is Pinkerton the Plunderer?
-Sand and Midnight
-
-This dragon is a known hoarder, and asks clans to help collect new pieces for their collection:
-Crim
-
-This dragon is a sibling of Pinkerton:
-Crim
-
-Where did Pinkerton get all of his stuff?
-He is perpetually trying to give away all of the items his sister Crim is collecting.
-
-Which of the following is the tundra dragon Pinkerton known to wear?
-Glasses and an Hourglass
-
-Which of Pinkerton's horns is broken?
-Left
-
-Which of the following dragons does not work at the trading post?
-Joxar
-
-What is the name of the mirror dragon who runs the festive favors shop?
-Joxar
-
-When is the Festive Favors shop NOT open for business?
-Flight Rising Anniversary
+- Swipp's Swap Stand
 
 This dragon sets up his cart at the trading post, and is always eager to make a trade:
 Swipp
+
+Which dragon is always present at the Swapp Stand?
+Swipp
+
+What are the names of Swipp's daughters?
+Pipp and Tripp
+
+What color dragon is Swipp the Swapper?
+Swamp and Sand
+
+What color dragon is Pipp the Swapper?
+Red and Caribbean
 
 Swipp will trade an Autumnal Wreath in exchange for which combination of items?
 Sand Creeper and Gold Ore
@@ -1642,6 +1712,9 @@ Tan Bandana
 If you provide Swipp with a handful of herdbeast hooves, which item will he trade you in return?
 Tawny Antlers
 
+If you provide Swipp with a handful of Honeycomb Fragments and Amber-Trapped Flies, which item will he trade you in return?
+Skin: Amber-Trapped Fae
+
 If you provide Swipp with a handful of Lucky Stars and Juneflowers, which item will he trade you in return?
 Tickled Hyacinth
 
@@ -1657,11 +1730,92 @@ Poison
 Which of the following is NOT obtainable from Swipp?
 Red and Gold Flair Scarf
 
+How much of a tip does Tripp require to trade with her at Swipp's Swap Stand?
+2000
+
+- Crim's Collection Cart
+
+What color dragon is Crim the Collector?
+Mulberry and Ivory
+
+This dragon is a known hoarder, and asks clans to help collect new pieces for their collection:
+Crim
+
+This dragon is a sibling of Pinkerton:
+Crim
+
+- Pinkerton's Plundered Pile
+
+What color dragon is Pinkerton the Plunderer?
+Sand and Midnight
+
+Where did Pinkerton get all of his stuff?
+He is perpetually trying to give away all of the items his sister Crim is collecting.
+
+Which of the following is the tundra dragon Pinkerton known to wear?
+Glasses and an Hourglass
+
+Which of Pinkerton's horns is broken?
+Left
+
+- Tomo's Trivia Tablet
+
 What is my name?
 Tomo
 
 What is my scribe's name?
 Scribbles
+
+- Baldwin's Bubbling Brew
+
+Who is the Pearlcatcher with the cauldron?
+Baldwin
+
+Who is the Pearlcatcher with the cauldron displayed in one of the Jigsaw puzzles?
+Baldwin
+
+A what level does an alchemist unlock the Glowing Blue Clawtip recipe at Baldwin's Bubbling Brew?
+Level 2
+
+A what level does an alchemist unlock the Leftover Residue at Baldwin's Bubbling Brew?
+Level 2
+
+A what level does an alchemist unlock the Sizzling Phosphorus recipe at Baldwin's Bubbling Brew?
+Level 3
+
+A what level does an alchemist unlock the Irradiated Scratch recipe at Baldwin's Bubbling Brew?
+Level 4
+
+A what level does an alchemist unlock the Black Protective Eyewear recipe at Baldwin's Bubbling Brew?
+Level 5
+
+A what level does an alchemist unlock the Darksteel Amulet of Necromancy recipe at Baldwin's Bubbling Brew?
+Level 6
+
+A what level does an alchemist unlock the Anomalous Skink recipe at Baldwin's Bubbling Brew?
+Level 7
+
+A what level does an alchemist unlock the Amberwing Waveskimmer recipe at Baldwin's Bubbling Brew?
+Level 8
+
+A what level does an alchemist unlock the Lesser Wisp recipe at Baldwin's Bubbling Brew?
+Level 9
+
+A what level does an alchemist unlock the Poison and Toxin gene recipes at Baldwin's Bubbling Brew?
+Level 10
+
+- Festive Favors
+
+Which of the following dragons does not work at the trading post?
+Joxar
+
+What is the name of the mirror dragon who runs the festive favors shop?
+Joxar
+
+When is the Festive Favors shop NOT open for business?
+Flight Rising Anniversary
+
+- Marketplace
 
 Breed change scrolls are found in what sub-section of the marketplace?
 Specialty
@@ -1717,6 +1871,9 @@ Clockwork
 Which of the following dragon species was designed by a backer of the Flight Rising Kickstarter?
 Skydancer Dragons
 
+Which of the following dragon species are designed by a backer of the Flight Rising Kickstarter?
+Sky Dancer Dragons
+
 Which of the following is not a real achievement?
 Level 25- 1 Dragon
 
@@ -1727,7 +1884,7 @@ Without buying any upgrades, how many pieces of apparel can each dragon naturall
 6
 
 What is the maximum amount of apparel a dragon may wear at once?
-16 pieces.
+20 pieces
 
 How many days minimum must your lair's collective average energy remain above 80% before you will start receiving daily bonuses?
 3.
