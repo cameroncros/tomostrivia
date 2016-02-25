@@ -18,7 +18,7 @@ xmlhttp.onreadystatechange=function()
       solveQuestion();
     }
   }
-xmlhttp.open("GET","https://cdn.rawgit.com/cameroncros/tomostrivia/97945bfc9a9bab5ed9499963a5535e28678acfb7/tomosanswers.txt",true);
+xmlhttp.open("GET","https://rawgit.com/cameroncros/tomostrivia/master/tomosanswers.txt",true);
 xmlhttp.send();
 
 function solveQuestion() {
