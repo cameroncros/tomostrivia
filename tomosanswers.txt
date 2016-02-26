@@ -1636,12 +1636,8 @@ To guess whether or not the right card will be higher or lower than the left car
 What is the gold limit required to max-out Lucky Streak in the Fairgrounds?
 75,000
 
-- Trading Post
-
 What is a similarity that all of the Trading Post dragon merchants share?
 Alliterative plot names.
-
-- Swipp's Swap Stand
 
 This dragon sets up his cart at the trading post, and is always eager to make a trade:
 Swipp
@@ -1733,8 +1729,6 @@ Red and Gold Flair Scarf
 How much of a tip does Tripp require to trade with her at Swipp's Swap Stand?
 2000
 
-- Crim's Collection Cart
-
 What color dragon is Crim the Collector?
 Mulberry and Ivory
 
@@ -1743,8 +1737,6 @@ Crim
 
 This dragon is a sibling of Pinkerton:
 Crim
-
-- Pinkerton's Plundered Pile
 
 What color dragon is Pinkerton the Plunderer?
 Sand and Midnight
@@ -1758,15 +1750,11 @@ Glasses and an Hourglass
 Which of Pinkerton's horns is broken?
 Left
 
-- Tomo's Trivia Tablet
-
 What is my name?
 Tomo
 
 What is my scribe's name?
 Scribbles
-
-- Baldwin's Bubbling Brew
 
 Who is the Pearlcatcher with the cauldron?
 Baldwin
@@ -1804,8 +1792,6 @@ Level 9
 A what level does an alchemist unlock the Poison and Toxin gene recipes at Baldwin's Bubbling Brew?
 Level 10
 
-- Festive Favors
-
 Which of the following dragons does not work at the trading post?
 Joxar
 
@@ -1814,8 +1800,6 @@ Joxar
 
 When is the Festive Favors shop NOT open for business?
 Flight Rising Anniversary
-
-- Marketplace
 
 Breed change scrolls are found in what sub-section of the marketplace?
 Specialty
